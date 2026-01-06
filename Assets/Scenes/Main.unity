@@ -248,6 +248,7 @@ MonoBehaviour:
   boatHouseA: {fileID: 1138331384927246, guid: f4fd60554feb830408409b09d8c5f2d0, type: 3}
   boatHouseB: {fileID: 1138331384927246, guid: 9d1d0b91403a8814ab6853947579bad9, type: 3}
   boatHouseC: {fileID: 1138331384927246, guid: be18bd8f4343bb14daad0d183019b6aa, type: 3}
+  boatHouseD: {fileID: 1138331384927246, guid: c65f9546a869b9f4786a35b0e5a1baf5, type: 3}
 --- !u!4 &576343055
 Transform:
   m_ObjectHideFlags: 0
