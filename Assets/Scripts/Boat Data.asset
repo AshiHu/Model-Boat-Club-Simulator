@@ -12,13 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3df60c82cd1e2840a175ef8d8562039, type: 3}
   m_Name: Boat Data
   m_EditorClassIdentifier: Assembly-CSharp::BoatData
-  width: 16
-  length: 9
-  SpawningCount: 0
-  boatHouseA: {fileID: 0}
-  boatHouseB: {fileID: 0}
-  boatHouseC: {fileID: 0}
-  maxSpeed: 6
+  maxSpeed: 3.78
   steeringSpeed: 4.5
   maxForce: 0.03
   neighborhoodRadius: 4

@@ -3,25 +3,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class BoatData : ScriptableObject
 {
-        [SerializeField]
-    private float width = 16f;
-
-    [SerializeField]
-    private float length = 9f;
-
-    [Range(0, 300)]
-    [SerializeField]
-    private int SpawningCount;
-
-    [SerializeField]
-    private GameObject boatHouseA = null;
-
-    [SerializeField]
-    private GameObject boatHouseB = null;
-
-    [SerializeField]
-    private GameObject boatHouseC = null;
-
     [Range(0, 10)]
     public float maxSpeed = 6f;
 
