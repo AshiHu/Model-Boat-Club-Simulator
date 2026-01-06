@@ -39,6 +39,10 @@ public BoatData data;
     [SerializeField]
     private GameObject boatHouseC = null;
 
+    [SerializeField]
+    private GameObject boatHouseD = null;
+
+
     private List<GameObject> boatsInstances = new List<GameObject>();
 
     private void Awake()
@@ -84,18 +88,24 @@ public BoatData data;
 
         // On prend une variable aléatoire entre 0.000 et 1.000
         float randomValue = Random.value;
-        if (randomValue < 0.333f)
+        if (randomValue < 0.25f)
         {
             randomBoat = boatHouseA;
         }
-        else if (randomValue < 0.666f)
+        else if (randomValue < 0.50f)
         {
             randomBoat = boatHouseB;
         }
-        else
+        else if (randomValue < 0.75f)
         {
             randomBoat = boatHouseC;
         }
+        else
+        {
+            randomBoat = boatHouseD;
+        }
+
+           
         // TODO Je ne vais pas rajouter un "if..else" pour chaque nouveau bateau ?!
         // Il devrait y avoir un moyen de réunir mes Prefab dans une liste et
         // d'en choisir un selon sa place dans la liste...
